@@ -84,7 +84,237 @@ int main()
       	}
       }
     }
-    cout<<"Card Number "<<i+1<<": "<<deck[i]<<endl;
+    else if (deck[i] == 1){
+      while (true){
+      	if (card5 <= 4){
+	        card5++;
+	        return false;
+      	}
+      	else if (card5 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card6 <= 4){
+	        card6++;
+	        return false;
+      	}
+      	else if (card6 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card7 <= 4){
+	        card7++;
+	        return false;
+      	}
+      	else if (card7 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card8 <= 4){
+	        card8++;
+	        return false;
+      	}
+      	else if (card8 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card9 <= 4){
+	        card9++;
+	        return false;
+      	}
+      	else if (card9 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card10 <= 4){
+	        card10++;
+	        return false;
+      	}
+      	else if (card10 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card11 <= 4){
+	        card11++;
+	        return false;
+      	}
+      	else if (card11 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card12 <= 4){
+	        card12++;
+	        return false;
+      	}
+      	else if (card12 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card13 <= 4){
+	        card13++;
+	        return false;
+      	}
+      	else if (card13 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card14 <= 4){
+	        card14++;
+	        return false;
+      	}
+      	else if (card14 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card15 <= 4){
+	        card15++;
+	        return false;
+      	}
+      	else if (card15 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card16 <= 4){
+	        card16++;
+	        return false;
+      	}
+      	else if (card16 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card17 <= 4){
+	        card17++;
+	        return false;
+      	}
+      	else if (card17 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card18 <= 4){
+	        card18++;
+	        return false;
+      	}
+      	else if (card18 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card19 <= 4){
+	        card19++;
+	        return false;
+      	}
+      	else if (card19 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card20 <= 4){
+	        card20++;
+	        return false;
+      	}
+      	else if (card20 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card21 <= 4){
+	        card21++;
+	        return false;
+      	}
+      	else if (card21 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }else if (deck[i] == 1){
+      while (true){
+      	if (card22 <= 4){
+	        card22++;
+	        return false;
+      	}
+      	else if (card22 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card23 <= 4){
+	        card23++;
+	        return false;
+      	}
+      	else if (card23 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card24 <= 4){
+	        card24++;
+	        return false;
+      	}
+      	else if (card24 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card25 <= 4){
+	        card25++;
+	        return false;
+      	}
+      	else if (card25 > 4){
+	        deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    //cout<<"Card Number "<<i+1<<": "<<deck[i]<<endl;
   }
   selectionSort(deck, n);
   cout<<"Sorted Array: \n";
