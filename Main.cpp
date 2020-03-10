@@ -37,6 +37,7 @@ int main()
   cout<<"Hello! Welcome to a text based card game!"<<endl;
   srand(time(NULL));
   int deck[60];
+  int n = sizeof(deck)/sizeof(deck[0]);
   for (int i = 0; i < 60; i++){
     deck[i] = rand()%25+1;
     if (deck[i] == 1){
@@ -65,6 +66,10 @@ int main()
     }
     cout<<"Card Number "<<i+1<<": "<<deck[i]<<endl;
   }
+  selectionSort(deck, n);
+  cout<<"Sorted Array: \n";
+  printArray(deck, n);
+  return 0;
 }
 
 void swap(int *xp, int *yp){
@@ -73,23 +78,23 @@ void swap(int *xp, int *yp){
   *yp = temp;
 }
 
-void selectionSort(int arr[], int n){
+void selectionSort(int deck[], int n){
   int i, j, min_idx;
   for (int i = 0; i < n-1; i++){
     min_idx = i;
     for (j = i+1; j < n; j++){
-      if (arr[j] < arr[min_idx]){
+      if (deck[j] < deck[min_idx]){
 	min_idx = j;
       }
     }
-    swap(&arr[min_idx], &arr[i]);
+    swap(&deck[min_idx], &deck[i]);
   }
 }
 
-void printArray(int arr[], int size){
+void printArray(int deck[], int size){
   int i;
   for (i = 0; i < size; i++){
-    cout<<arr[i]<<" ";
+    cout<<deck[i]<<" ";
   }
   cout<<endl;
 }
