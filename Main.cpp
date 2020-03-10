@@ -41,27 +41,47 @@ int main()
   for (int i = 0; i < 60; i++){
     deck[i] = rand()%25+1;
     if (deck[i] == 1){
-      if (card1 <= 4){
-	card1++;
-      }
-      else if (card1 > 4){
-	deck[i] = rand()%25+1;
-      }
-    }
-    else if (deck[i] == 2){
-      if (card2 <= 4){
-	card2++;
-      }
-      else if (card2 > 4){
-	deck[i] = rand()%25+1;
+      while (true){
+      	if (card1 <= 4){
+	  card1++;
+	  return false;
+      	}
+      	else if (card1 > 4){
+	  deck[i] = rand()%25+1;
+      	}
       }
     }
-    else if (deck[i] == 3){
-      if (card3 <= 4){
-	card3++;
+    else if (deck[i] == 1){
+      while (true){
+      	if (card2 <= 4){
+	  card2++;
+	  return false;
+      	}
+      	else if (card2 > 4){
+	  deck[i] = rand()%25+1;
+      	}
       }
-      else if (card3 > 4){
-	deck[i] = rand()%25+1;
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card3 <= 4){
+	  card3++;
+	  return false;
+      	}
+      	else if (card3 > 4){
+	  deck[i] = rand()%25+1;
+      	}
+      }
+    }
+    else if (deck[i] == 1){
+      while (true){
+      	if (card4 <= 4){
+	  card4++;
+	  return false;
+      	}
+      	else if (card4 > 4){
+	  deck[i] = rand()%25+1;
+      	}
       }
     }
     cout<<"Card Number "<<i+1<<": "<<deck[i]<<endl;
