@@ -10,4 +10,7 @@ class Card{
    Card(char*);
    char* getName();
    int getType();
+  private:
+   char* name;
+   int type;
 };
