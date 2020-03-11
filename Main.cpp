@@ -2,6 +2,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include <time.h>
+#include "Card.h"
 
 using namespace std;
 
