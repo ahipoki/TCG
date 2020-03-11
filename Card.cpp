@@ -12,3 +12,7 @@ Card::Card(char* newName){
 char* Card::getName(){
   return name;
 }
+
+int Card::getType(){
+  return type;
+}
