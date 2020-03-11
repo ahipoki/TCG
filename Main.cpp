@@ -89,22 +89,22 @@ int main()
     else if (deck[i] == 1){
       while (true){
       	if (card5 <= 4){
-	        card5++;
-	        return false;
+	  card5++;
+	  return false;
       	}
       	else if (card5 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card6 <= 4){
-	        card6++;
-	        return false;
+	  card6++;
+	  return false;
       	}
       	else if (card6 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
@@ -122,74 +122,74 @@ int main()
     else if (deck[i] == 1){
       while (true){
       	if (card8 <= 4){
-	        card8++;
-	        return false;
+	  card8++;
+	  return false;
       	}
       	else if (card8 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card9 <= 4){
-	        card9++;
-	        return false;
+	  card9++;
+	  return false;
       	}
       	else if (card9 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card10 <= 4){
-	        card10++;
-	        return false;
+	  card10++;
+	  return false;
       	}
       	else if (card10 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card11 <= 4){
-	        card11++;
-	        return false;
+	  card11++;
+	  return false;
       	}
       	else if (card11 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card12 <= 4){
-	        card12++;
-	        return false;
+	  card12++;
+	  return false;
       	}
       	else if (card12 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card13 <= 4){
-	        card13++;
-	        return false;
+	  card13++;
+	  return false;
       	}
       	else if (card13 > 4){
-	        deck[i] = rand()%25+1;
+	  deck[i] = rand()%25+1;
       	}
       }
     }
     else if (deck[i] == 1){
       while (true){
       	if (card14 <= 4){
-	        card14++;
-	        return false;
+	  card14++;
+	  return false;
       	}
       	else if (card14 > 4){
 	        deck[i] = rand()%25+1;
