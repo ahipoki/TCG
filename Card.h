@@ -7,5 +7,7 @@ using namespace std;
 
 class Card{
   public:
-   Card();
+   Card(char*);
+   char* getName();
+   int getType();
 };
