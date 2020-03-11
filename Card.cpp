@@ -16,3 +16,7 @@ char* Card::getName(){
 int Card::getType(){
   return type;
 }
+
+void Card::setName(){
+  
+}
