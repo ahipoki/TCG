@@ -9,6 +9,8 @@ class Card{
   public:
    Card(char*);
    char* getName();
+   void setName();
+   void setType();
    int getType();
   private:
    char* name;
